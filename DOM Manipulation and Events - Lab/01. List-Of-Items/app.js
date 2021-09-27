@@ -1,5 +1,5 @@
 function addItem() {
-    // Founding the id of target when we will add the new element
+    // Founding the id of target where we will add the new element
     let inputSection = document.getElementById('newItemText');
     let elementOfItems = document.getElementById('items');
     // Creating the element
