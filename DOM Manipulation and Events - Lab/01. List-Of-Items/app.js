@@ -8,4 +8,5 @@ function addItem() {
     liItemElement.textContent = inputSection.value;
     // Adding element
     elementOfItems.appendChild(liItemElement);
+    document.getElementById('newItemText').value = '';
 }
