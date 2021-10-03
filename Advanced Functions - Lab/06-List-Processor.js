@@ -13,3 +13,4 @@ function listProcessor(input) {
         object[data](value)
     })
 }
+
