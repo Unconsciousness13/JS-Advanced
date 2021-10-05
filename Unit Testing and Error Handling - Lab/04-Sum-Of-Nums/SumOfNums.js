@@ -1,4 +1,4 @@
-function sum (arr) {
+function sum(arr) {
     let sum = 0
     for (let num of arr) {
         sum += Number(num)
@@ -6,5 +6,5 @@ function sum (arr) {
     return sum
 }
 
-module.exports = { sum }
+module.exports =  sum;
 
