@@ -26,7 +26,7 @@ function solve(httpObj) {
 
     function validateUri(httpObj) {
         let propName = 'uri';
-        let uriRegex = /^\*$|^[a-zA-Z0-9]+$/;
+        let uriRegex = /^\*$|^[a-zA-Z0-9.]+$/;
 
         if (httpObj[propName] === undefined || 
             !uriRegex.test(httpObj[propName])) {
