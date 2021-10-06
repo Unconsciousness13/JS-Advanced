@@ -32,6 +32,8 @@ describe('mathEnforcer', () => {
             expect(mathEnforcer.sum(-5, 5.0)).to.be.closeTo(0, 0.01);
             expect(mathEnforcer.sum(-5.2, 1)).to.be.closeTo(-4.2, 0.01);
             expect(mathEnforcer.sum(-2, -2)).to.equal(-4);
+            expect(mathEnforcer.sum(5.2, 5.2)).to.be.closeTo(10.4, 0.01);
+
 
 
         })
