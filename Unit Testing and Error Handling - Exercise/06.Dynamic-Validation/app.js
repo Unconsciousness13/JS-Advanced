@@ -6,7 +6,6 @@ function validate() {
         emailInput.classList.remove('error')
     }else{
         emailInput.classList.add('error')
-    }
-    
+    }  
 
 }
