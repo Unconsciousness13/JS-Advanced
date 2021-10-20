@@ -30,9 +30,6 @@ function solution() {
 
 
 
-
-
-
         function send(e) {
             sentGifts.innerHTML += `<li>${sendButton.previousSibling.textContent}</li>`;
             e.target.parentNode.remove()
@@ -45,10 +42,6 @@ function solution() {
             e.target.parentNode.remove()
 
         }
-
-
-        allEl = '<li> class="gift"</li>'
-
 
     }
 }
