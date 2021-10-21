@@ -1,5 +1,5 @@
 const testNumbers = {
-    sumNumbers: function (num1, num2) {
+    sumNumbers: function(num1, num2) {
         let sum = 0;
 
         if (typeof(num1) !== 'number' || typeof(num2) !== 'number') {
@@ -9,7 +9,7 @@ const testNumbers = {
             return sum
         }
     },
-    numberChecker: function (input) {
+    numberChecker: function(input) {
         input = Number(input);
 
         if (isNaN(input)) {
@@ -23,7 +23,7 @@ const testNumbers = {
         }
 
     },
-    averageSumArray: function (arr) {
+    averageSumArray: function(arr) {
 
         let arraySum = 0;
 
@@ -35,5 +35,4 @@ const testNumbers = {
     }
 };
 
-
-
+module.exports = testNumbers;
