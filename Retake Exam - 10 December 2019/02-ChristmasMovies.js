@@ -81,20 +81,20 @@ class ChristmasMovies {
 }
 
 let christmas = new ChristmasMovies();
-christmas.buyMovie('Home Alone', ['Macaulay Culkin', 'Joe Pesci', 'Daniel Stern']);
-christmas.buyMovie('Home Alone 2', ['Macaulay Culkin']);
-christmas.buyMovie('Last Christmas', ['Emilia Clarke', 'Henry Golding']);
-christmas.buyMovie('The Grinch', ['Benedict Cumberbatch', 'Pharrell Williams']);
-christmas.watchMovie('Home Alone');
-christmas.watchMovie('Home Alone');
-christmas.watchMovie('Home Alone');
-christmas.watchMovie('Home Alone 2');
+
+console.log(christmas.buyMovie('Last Christmas', ['Madison Ingoldsby', 'Emma Thompson', 'Boris Isakovic', 'Madison Ingoldsby']));
+console.log(christmas.buyMovie('Home Alone', ['Macaulay Culkin', 'Joe Pesci', 'Daniel Stern']));
+console.log(christmas.buyMovie('Home Alone 2', ['Macaulay Culkin']));
+console.log(christmas.buyMovie('The Grinch', ['Benedict Cumberbatch', 'Rashida Jones']));
 christmas.watchMovie('The Grinch');
+console.log(christmas.discardMovie('The Grinch'));
+christmas.watchMovie('Home Alone');
+christmas.watchMovie('Home Alone');
+christmas.watchMovie('Home Alone');
 christmas.watchMovie('Last Christmas');
-christmas.watchMovie('Home Alone 2');
 christmas.watchMovie('Last Christmas');
-christmas.discardMovie('The Grinch');
-christmas.favouriteMovie();
-christmas.mostStarredActor();
+console.log(christmas.favouriteMovie());
+console.log(christmas.mostStarredActor());
+
 
 module.exports = ChristmasMovies;
